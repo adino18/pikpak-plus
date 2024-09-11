@@ -11,6 +11,6 @@ services:
   server:
     build: ./pikpak-plus-server
     ports:
-    - '5000:5000'
+    - '6000:5000'
     volumes:
     - ./pikpak-plus-server:/app
